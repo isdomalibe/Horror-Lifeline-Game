@@ -5,14 +5,6 @@ Immerse yourself in a chilling simulation where every choice matters — and onl
 
 ---
 
-## 📸 Screenshots
-
-> *(Optional — add a few screenshots or GIFs here)*  
-> Upload images to your repo and reference them like:
-> `![Classroom Scene](screenshots/classroom.png)`
-
----
-
 ## 🎮 How to Play
 
 1. Open `index.html` in a web browser.
