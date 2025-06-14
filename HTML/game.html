@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lifeline Horror Simulation</title>
+  <link rel="stylesheet" href="/Style/game.css" />
+</head>
+<body>
+
+<div id="fade-overlay"></div>
+
+ <div id="loading-screen">
+  <div class="scanlines"></div>
+  <div class="loading-content">
+    <div class="spinner"></div>
+    <span class="loading-text">Initializing Behavior Matrix...</span>
+  </div>
+</div>
+
+  <div id="background" class="background"></div>
+
+
+  <div id="game-container" class="game-container">
+    <div id="scene-text" class="scene-text">Loading...</div>
+    <div id="choices" class="choices"></div>
+
+    <div class="buttons">
+      <button id="undo-button" style="display:none;">Undo</button>
+      <button id="restart-button" style="display:none;">Restart</button>
+    </div>
+  </div>
+
+  <div id="bad-ending-banner">YOU FAILED</div>
+
+  <script src="/Scripts/game.js"></script>
+</body>
+</html>
